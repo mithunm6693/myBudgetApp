@@ -1,0 +1,22 @@
+.header {
+    background-color: aqua;
+    color: brown;
+}
+
+.header__content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    ;
+}
+
+.header__title {
+    color: aliceblue;
+    text-decoration: none;
+
+    h1 {
+        margin: 0;
+
+    }
+}

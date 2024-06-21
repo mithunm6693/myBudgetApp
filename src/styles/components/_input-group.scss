@@ -1,0 +1,25 @@
+.input-group {
+    display: flex;
+    margin-bottom: $m-size;
+    flex-direction: column;
+
+    @media(min-width:45rem) {
+        margin-bottom: $l-size;
+        flex-direction: row;
+
+    }
+
+}
+
+
+.input-group__items {
+
+    margin-right: $s-size;
+    margin-bottom: $s-size;
+
+    @media(min-width:45rem) {
+        
+        margin: 0 $l-size 0 0;
+    }
+
+}

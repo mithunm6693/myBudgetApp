@@ -1,0 +1,15 @@
+.form {
+    display: flex;
+    flex-direction: column;
+
+    > * {
+        margin-top: $l-size;
+    }
+}
+
+.form__error {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
